@@ -1,0 +1,234 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    list-style: none;
+}
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header button{
+    margin-left: 30px;
+}
+.wrapper {
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav a {
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    transition: color .3s, text-decoration .3s;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+button{
+    border: 1px solid gray;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.light-button {
+    background-color: white;
+}
+.light-button:hover {
+    background: #3F2AFF;
+    border: 1px solid transparent;
+    color: #fff;
+}
+.dark-button {
+    background-color: blue;
+    color: white;
+    margin-top: 40px;
+}
+.dark-button:hover {
+    background: white;
+    color: black;
+}
+.first-block {
+    height: 500px;
+    background: url('img/man.png') no-repeat right center;
+    background-size: 465px 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-block h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.first-block div{
+    font-size: 18px;
+}
+.services-block {
+    margin-bottom: 70px;
+}
+.images-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.images-container > div {
+    padding-top: 120px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 90px;
+    font-size: 12px;
+}
+.service-1 {
+    background-image: url('img/1.png');
+}
+.service-2 {
+    background-image: url("img/2.png");
+}
+.service-3 {
+    background-image: url('img/3.png');
+}
+.service-4 {
+    background-image: url('img/4.png');
+}
+.works-block {
+    margin-bottom: 70px;
+}
+.works{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.works li {
+    padding-top: 190px;
+    width: 100%;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    text-align: center;
+
+}
+
+.work-1 {
+    background-image: url('img/e1.png');
+}
+.work-2 {
+    background-image: url('img/e2.png');
+}
+.work-3 {
+    background-image: url('img/e3.png');
+}
+
+.cost {
+    padding-top: 85px;
+    padding-bottom: 100px;
+    background: #3F2AFF;
+    color: #fff;
+}
+.cost h3 {
+    max-width: 600px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.cost p {
+    max-width: 530px;
+    font-size: 16px;
+}
+footer {
+    padding-top: 90px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+footer li {
+    margin-bottom: 20px;
+}
+footer button{
+    margin-bottom: 15px;
+}
+.footer-socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+}
+.footer-socials-link {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition: transform .3s ease;
+    padding: 0 10px 0 10px;
+}
+.footer-socials-link:hover::after {
+    width: 0;
+    transform: scale(1.1);
+}
+
+.footer-socials a:hover {
+    transform: scale(1.2);
+}
+.git {
+    background-image: url("./img/git.png");
+}
+.tg {
+    background-image: url("./img/telegram.png");
+}
+.inst {
+    background-image: url("./img/inst.png");
+}
+.popup-container {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: #000000ba;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.popup {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 200px;
+    position: relative;
+}
+.popup h2 {
+    margin-top: 0px;
+}
+.popup input {
+    display: block;
+    font-size: 20px;
+    width: 190px;
+    margin-bottom: 10px;
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    background-image: url('img/close.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
