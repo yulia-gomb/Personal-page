@@ -64,7 +64,7 @@ button{
 }
 .first-block {
     height: 500px;
-    background: url('img/man.png') no-repeat right center;
+    background: url('img/me.png') no-repeat right center;
     background-size: 465px 400px;
     display: flex;
     justify-content: space-between;
